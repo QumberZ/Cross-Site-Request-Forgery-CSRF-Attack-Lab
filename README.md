@@ -1,9 +1,7 @@
 # Cross-Site-Request-Forgery-CSRF-Attack-Lab
 This lab has been tested on our pre-built Ubuntu 20.04 VM, which can be downloaded from the SEED website. Since we use containers to set up the lab environment, this lab does not depend much on the SEED VM. You can do this lab using other VMs, physical machines, or VMs on the cloud. 
-Qumber Zaidi
-CSC 223 Lab Report
 
-Cross-Site Request Forgery (CSRF) Attack Lab
+
 
 To get started, we first go to the seed labs website, https://seedsecuritylabs.org/Labs_20.04/Web/Web_CSRF_Elgg/  and we download the labset up files and unzip them. Then we open up the command line or terminal and switch to the Labsetup directory and run a few commands. We run Docker-compose build, which creates all of the containers in order for us to use the websites and do this lab. Then we run docker-compose up which starts all of the containers and gets everything up and running. We can test to see if these containers are running using the command, docker ps. This command shows the container id, image, ports, status, name, and other information. Before testing the URLs on the web browser, we need to edit the /etc/hosts files to add the URLs next to their IP addresses. We can do this by running sudo gedit /etc/hosts, or sudo nano /etc/hosts, depending whether your OS has gedit installed or not. Then we can test the url by putting any of the following URLs we use for this lab into the web browser. If we see the login page for www.seed-server.com, then we know the containers are running. We log in and continue the next steps for the lab using the admins created for us already.
 
